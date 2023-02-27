@@ -9,10 +9,12 @@
 </head>
 <body id="gradient">
     <h1>Gradient Background Generator</h1>
-    <input type="color" name="color1" class="color1" value="#9796F0">
-    <input type="color" name="color2" class="color2" value="#1D2671">
-    <h3>current Gradiant Background</h3>
-    <h4></h4>
+    <label for="color2">pick left side color</label>
+    <input type="color" name="color2" id="color2" value="#d34fa9">
+    <label for="color1">pick right side color</label>
+    <input type="color" name="color1" id="color1" value="#615fbb">
+    <h3>current Gradiant Background:</h3>
+    <h4>linear-gradient(right,#615fbb, #d34fa9);</h4>
     <button class="random">Generate Random Background Color</button>
     <script src="app.js"></script>
 </body>
