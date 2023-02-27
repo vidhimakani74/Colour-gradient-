@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* letter-spacing: 0.2rem ; */
+}
+
+h1{
+    width: 100%;
+}
+
+input{
+   margin: 1%;
+}
+
+.random{
+    background-color: aliceblue;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(71, 69, 69);
+    padding: 0.5rem;
+    margin: 2rem;
+    font-size:medium
+}
+
+.random:hover{
+    border: 2px solid black;
+    background-color: rgb(215, 220, 225);
+}
