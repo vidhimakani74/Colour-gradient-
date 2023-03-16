@@ -29,7 +29,6 @@ function generateRandomColor(){
     h4.textContent = body.style.background; 
 }
 
-
+random.addEventListener("click",generateRandomColor);
 color1.addEventListener("input",setGradient);
 color2.addEventListener("input",setGradient);
-random.addEventListener("click",generateRandomColor);
