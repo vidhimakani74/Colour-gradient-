@@ -6,7 +6,9 @@ var random = document.querySelector("button");
 
 //set gradient color
 function setGradient(){
-    body.style.background="Linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    color_1=color1.value;
+    color_2=color2.value;
+    body.style.background="Linear-gradient(to right, " + color_1 + ", " + color_2+ ")";
     h4.textContent=body.style.background;
 }
 
